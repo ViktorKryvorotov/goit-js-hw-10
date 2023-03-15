@@ -10,6 +10,9 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  background-image:url(../images/map.png);
+  background-size:cover;
+  background-repeat: no-repeat;
 }
 
 #search-box {
