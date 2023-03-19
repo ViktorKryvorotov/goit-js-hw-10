@@ -24,7 +24,7 @@ body {
 }
 li{
   list-style: none;
-  font-weight: 500;
+  font-weight: inherit;
 
   display: flex;
   align-items: center;
@@ -51,5 +51,7 @@ font-weight: 600;
   font-size: 40px;
 }
 p{
-margin-left:15px;
+margin-right:10px;
+font-size: large;
+font-weight: 700;
 }

@@ -58,13 +58,13 @@ function addCountryCardInfo(countries) {
           }" width=50 alt="flag">${
             country.name
           }</li>
-          <li>Capital: ${
+          <li><p>Capital:</p> ${
             country.capital
           }</li>
-          <li>Population: ${
+          <li><p>Population:</p> ${
             country.population
           }</li>
-          <li>Languages: ${country.languages.map(
+          <li><p>Languages:</p> ${country.languages.map(
             language => language.name
           )}</li>` 
       )
